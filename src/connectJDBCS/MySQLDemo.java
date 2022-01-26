@@ -15,7 +15,7 @@ public class MySQLDemo {
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		
 		//Establish the connection between java application and MySQL database
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/emp1", "root", "mysql");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/emp1", "database user", "your password");
 		
 		//Create statement Object
 		Statement st = con.createStatement();
